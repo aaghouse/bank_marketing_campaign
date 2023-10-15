@@ -71,9 +71,9 @@ Post DataScience techniques baed on the quantitative statistical analysis and mo
 accuracy that they would enroll in term based deposit product.
 
 ![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png)
-![ROC (Receiver Operating Characteristic) curve](ROC_curve_results_summary.png)
+![ROC (Receiver Operating Characteristic) curve Refer above]
 
-- Based on the accuracy and ROC curve tradeoffs we have come up with three model choices. 
+** Based on the accuracy and ROC curve tradeoffs we have come up with three model choices. 
 ** Choice (1) SVM using SVC and all 48 features with accuracy (91.5%) seems to be a better fit for our application 
 ** Choice (2) If computing $ is a concern then RandomForestClassifier(FeatureReduction to 5 features)+SVC accuracy(91.22%)
 ** Choice (3) Logistic Regression with accuracy of (91.07%) , can target customers but false possitives are a bit more 
