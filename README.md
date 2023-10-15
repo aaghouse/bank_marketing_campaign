@@ -58,11 +58,12 @@ This initiative is to statistically study the clients, category of clients, obse
 10. Our desired outcome in this case is For the given customer the model should give an output of "1" for potential customer to target or "0" not a customer to target for term deposit clientel. Using this bank can decide to either place a call or refrain from marketing term deposit product to the customer.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Data](link)
-* [Data feature description](link)
-* [Results](link)
+* [Jupiter Notebook](https://github.com/aaghouse/bank_marketing_campaign/blob/master/bank_mktng_classification_y-or-n_term_deposit.ipynb)
+* [Data Set](https://github.com/aaghouse/bank_marketing_campaign/tree/master/bank%2Bmarketing/bank-additional/bank-additional)
+* [Data feature description1](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures1of2.png)
+* [Data feature description2](https://github.com/aaghouse/bank_marketing_campaign/blob/master/images/DataSetFeatures2of2.png)
+* [Results Summary](https://github.com/aaghouse/bank_marketing_campaign/blob/master/ResultsSummary.md)
+* [Reference Paper](https://github.com/aaghouse/bank_marketing_campaign/blob/master/CRISP-DM-BANK.pdf)
 
 ## Results
 Business context, when the bank contacted its target clients or so called target clients majority of the clients declined to enroll in term based deposits. Analyzing the given data set 88.73% declined to enroll.  
