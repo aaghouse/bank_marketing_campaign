@@ -84,7 +84,7 @@ accuracy that they would enroll in term based deposit product.
 - optimized_svm_model = SVC(kernel='sigmoid', C=best_C, gamma=best_gamma)
 - Accuracy: 0.8868657441126487
 - Fit Time: 12.2160 seconds
-- (More computing spending time and resource to improve the model beyond 90+% accuracy.
+- More computing, spending time and resource are required to improve the model beyond 90%+ accuracy.
 
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
