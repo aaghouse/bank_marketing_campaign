@@ -41,7 +41,7 @@ This initiative is to statistically study the clients, category of clients, obse
 10. Our desired outcome in this case is For the given customer the model should give an output of "1" for potential customer to target or "0" not a customer to target for term deposit clientel. Using this bank can decide to either place a call or refrain from marketing term deposit product to the customer.
 
 ## Key takeaway from the Analysis
-* Tradeoff
+### Tradeoff
 - Observe ROC curve and decide on the best model to use ( or sweetspot) based on the business need. In this case we want to maintain maximum accuracy targetting the right client. So reducing false positive is important as well.
 - Since this may not be a dynamic input and can be pre analyzed before deploying a marketing campaign we could perform modeling ahead of time with an accaptble compute costs to the business.
 - Based on the accuracy and ROC curve tradeoffs we have come up with three model choices. 
@@ -49,7 +49,7 @@ This initiative is to statistically study the clients, category of clients, obse
 ** Choice (2) If computing $ is a concern then RandomForestClassifier(FeatureReduction to 5 features)+SVC accuracy(91.22%)
 ** Choice (3) Logistic Regression with accuracy of (91.07%) , can target customers but false possitives are a bit more 
 
-* Key Features
+### Key Features
 In the event that compute expense is tight and we want to minimize the compute time one effective way is to reduce the features from 48 to absolute bare minimum. In this case we reduced it using RandomForestClassifier to 5
 - poutcome_success, This feature is the outcome of the previous campaign if it had a successful acceptance during campaign.
 - age, age of the client seems to be a good feature to decide the client as target or not.
