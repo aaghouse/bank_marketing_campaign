@@ -2,9 +2,9 @@
 This project is a part of the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 Typical marketing campaigns calling customers to improve term deposits has 1% success rates. ML initiatives can help in this regard
 
-#### -- Project Status: [Completed]
+## Project Status: [Completed]
 
-## Project Intro/Objective
+### Project Intro/Objective
 Improve resource utilization, time and effort using targetted marketing.
 The purpose of this project is to use machine learning techniques identify customers who are likely to pay attantion to the marketing campaign
 and consider or invest in term deposits with the bank. Idea is to improve the 1% success rates to much larger %'s so 99% wasted time and resource
