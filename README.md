@@ -74,5 +74,6 @@ accuracy that they would enroll in term based deposit product.
 
 ![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png)
 
+Results Summary (Detailed results analysis [Final Summary](https://github.com/aaghouse/bank_marketing_campaign/blob/master/ResultsSummary.md))
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
