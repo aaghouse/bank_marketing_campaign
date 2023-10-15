@@ -66,7 +66,7 @@ This initiative is to statistically study the clients, category of clients, obse
 
 ## Results
 Business context, when the bank contacted its target clients or so called target clients majority of the clients declined to enroll in term based deposits. Analyzing the given data set 88.73% declined to enroll.  
-In DataScience language, baseline accuracy of the majority outcome "0" if the given data set is 88.73%
+In DataScience language, baseline accuracy of the majority outcome "0" of the given data set is 88.73%
 Post DataScience techniques baed on the quantitative statistical analysis and modeling we can target clients with > 90%
 accuracy that they would enroll in term based deposit product.
 
