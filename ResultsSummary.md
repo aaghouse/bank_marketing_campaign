@@ -44,6 +44,8 @@ This initiative is to statistically study the clients, category of clients, obse
 ### Tradeoff
 - Observe ROC curve and decide on the best model to use ( or sweetspot) based on the business need. In this case we want to maintain maximum accuracy targetting the right client. So reducing false positive is important as well.
 - Since this may not be a dynamic input and can be pre analyzed before deploying a marketing campaign we could perform modeling ahead of time with an accaptble compute costs to the business.
+- Among the models we have used for analysis Decision Trees and LogisticRegression are interpretable and can be best suited for the executive team that like to dig deep into details and are inquisitive. If this is the top criterion recomendation would be to use Logistic Regression with (91.07%) accuracy.
+- If executive team is visual then Decision Tree with lower accuracy but easier intuitive graphical queues can be an option with (87.94%) accuracy.  
 - Based on the accuracy and ROC curve tradeoffs we have come up with three model choices. 
     - Choice (1) SVM using SVC and all 48 features with accuracy (91.5%) seems to be a better fit for our application 
     - Choice (2) If computing $ is a concern then RandomForestClassifier(FeatureReduction to 5 features)+SVC accuracy(91.22%)
