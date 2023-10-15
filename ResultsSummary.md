@@ -57,7 +57,7 @@ In the event that compute expense is tight and we want to minimize the compute t
 - enm.var.rate, this seems to be employment variability rate of the client. Perhaps its referig to the change of employment. It is one of the feature that is missing in the dataset description.
 - con.conf.idx, Consumer confidence index, Its a measure of economic health and how the client feels about the economy.
 
-## Next Step
+## Improving Outcomes or refining our model
 * Further analysis obtaining clear plots ROC and Confusion Matrix.
 - I am including RandomForestClassification+SVC model plots for reference.
 ![Confusion Matrix RandomForestClassification(features reduced)+SVC](RandomForestClassifier-reduced-features-SVM-SVC-confusion-matrix.png)
@@ -73,10 +73,18 @@ accuracy that they would enroll in term based deposit product.
 ![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png)
 ![Best Models for this Classification](model_choice_result.png)
 
-** Based on the accuracy and ROC curve tradeoffs we have come up with three model choices. 
-** Choice (1) SVM using SVC and all 48 features with accuracy (91.5%) seems to be a better fit for our application 
-** Choice (2) If computing $ is a concern then RandomForestClassifier(FeatureReduction to 5 features)+SVC accuracy(91.22%)
-** Choice (3) Logistic Regression with accuracy of (91.07%) , can target customers but false possitives are a bit more 
+## Next Step to further improve the results
+- Further improve the SVM model using gridsearchCV trying out various hyperparameters and kernels requires powerful computing
+- Attempts to do grid search to optimize hyper paramater is causing multiple hours or perhaps even days to develop results. I managed to capture one result and its recorded in the comments section below
+- SVM (all Features  or 48 features ) - svc for sigmoid kernel - only successful result after few hours of computing.
+###Recorded output
+- Reduced X_train and X_test Size (32950, 5) (8238, 5)
+- Selected features post reduction by RandomForest: ['onehotencoder__poutcome_success', 'standardscaler__age', 'standardscaler__duration', 'standardscaler__emp.var.rate', 'standardscaler__cons.conf.idx']
+- Model: Optimized SVM svc Best paramaters C, gamma 0.1 0.1
+- optimized_svm_model = SVC(kernel='sigmoid', C=best_C, gamma=best_gamma)
+- Accuracy: 0.8868657441126487
+- Fit Time: 12.2160 seconds
+- (More computing spending time and resource to improve the model beyond 90+% accuracy.
 
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
