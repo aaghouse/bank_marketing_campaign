@@ -1,4 +1,4 @@
-# Bank Deposit Marketing Campaign
+## Bank Deposit Marketing Campaign
 This project is a part of the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 Typical marketing campaigns calling customers to improve term deposits has 1% success rates. ML initiatives can help in this regard
 
@@ -67,12 +67,12 @@ This initiative is to statistically study the clients, category of clients, obse
 
 ## Results
 Business context, when the bank contacted its target clients or so called target clients majority of the clients declined to enroll in term based deposits. Analyzing the given data set 88.73% declined to enroll.  
+
 In DataScience language, baseline accuracy of the majority outcome "0" of the given data set is 88.73%
 Post DataScience techniques baed on the quantitative statistical analysis and modeling we can target clients with > 90%
 accuracy that they would enroll in term based deposit product.
 
 ![Classification Models with accuracy, fit times & interpretability](Output_All_models-Final-Results-Plots.png)
-![ROC (Receiver Operating Characteristic) curve](ROC_curve_results_summary.png)
 
 ## Contact 
 * Author: Abdul Ghouse, email: aghouse@gmail.com
