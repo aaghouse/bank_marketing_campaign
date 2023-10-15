@@ -1,0 +1,6 @@
+#python jupiter .files
+.ipynb_checkpoints
+
+#log files
+*.log
+.cache/
