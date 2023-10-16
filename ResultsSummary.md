@@ -13,7 +13,7 @@ Bank has collected 21 features or columns of around 41188 rows or records. These
 This initiative is to statistically study the clients, category of clients, observe their pattern, past success on term deposits, financial potential and come up with target clients to market the product (term deposits). Idea is to spend resource, time, effort and cater to better customer experience. 
 
 ## Phased project execution processes
-* [Python Code in Jupiter Notebook](https://github.com/aaghouse/bank_marketing_campaign/blob/master/bank_mktng_classification_y-or-n_term_deposit.ipynb)
+###[Python Code in Jupiter Notebook](https://github.com/aaghouse/bank_marketing_campaign/blob/master/bank_mktng_classification_y-or-n_term_deposit.ipynb)
 1. Clone this repo (UC Irvine ML Repo [Detailed Dataset to Download](https://archive.ics.uci.edu/dataset/222/bank+marketing)).
 2. Understand the business challenges, use case, problem to solve, features used in the dataset, co-relation understanding with target and among features 
 3.EDA(Exploratory Data Analysis)
