@@ -5,10 +5,8 @@ Typical marketing campaigns calling customers to improve term deposits has 1% su
 ## Project Status: [Completed]
 
 ### Project Intro/Objective
-Improve resource utilization, time and effort using targetted marketing.
-The purpose of this project is to use machine learning techniques identify customers who are likely to pay attantion to the marketing campaign
-and consider or invest in term deposits with the bank. Idea is to improve the 1% success rates to much larger %'s so 99% wasted time and resource
-can be leveraged optimally targetting the right customers.
+Improve resource utilization, time and effort using targeted marketing. The purpose of this project is to use machine learning techniques to identify customers who are likely 
+to pay attention to the marketing campaign and consider or invest in term deposits with the bank. Idea is to improve the 1% success rates to much larger %'s so 99% wasted time and resource can be leveraged optimally targeting the right customers.
 
 ### Methods Used
 * Statistics
@@ -28,8 +26,7 @@ can be leveraged optimally targetting the right customers.
 * sklearn, pandas, numpi, time
 
 ## Project Description
-Bank has collected 21 features or columns of around 41188 rows or records. These are statistics and data about the clients. Marketing term deposit inciscriminately to all these clients historically has given a success rate of 1%. Not just a low success rate but has given bad customer experience.
-This initiative is to statistically study the clients, category of clients, observe their pattern, past success on term deposits, financial potential and come up with target clients to market the product (term deposits). Idea is to spend resource, time, effort and cater to better customer experience. 
+Bank has collected 21 features or columns of around 41188 rows or records. These are statistics and data about the clients. Marketing term deposit indiscriminately to all these clients historically has given a success rate of 1%. Not just a low success rate but has given bad customer experience. This initiative is to statistically study the clients, category of clients, observe their pattern, past success on term deposits, financial potential and come up with target clients to market the product (term deposits). The idea is to spend efficient resources, time, effort and cater to better customer experience.
 
 ## Needs of this project
 - ML modeling skills, python
